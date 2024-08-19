@@ -58,7 +58,7 @@ export default function Home() {
       <div className='absolute w-fit translate-x-[825px] translate-y-[-725px]'>
         <Image
           src={'/images/curved-arrow.svg'}
-          alt="Picture of the author"
+          alt="curved-arrow"
           width={165}
           height={165}
           blurDataURL="data:..."
@@ -69,7 +69,7 @@ export default function Home() {
       <div className='absolute w-fit translate-x-[750px] translate-y-[-280px]'>
         <Image
           src={'/images/random-lines.svg'}
-          alt="Picture of the author"
+          alt="random-lines"
           width={100}
           height={100}
           blurDataURL="data:..."
