@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: 'Thanachot P.',
-  decs: "Thanachot Phomthong's Portfolio",
+  description: "Thanachot Phomthong's Portfolio",
   icon: 'favicon.ico',
   openGraph: {
     title: 'Thanachot | Portfolio',
