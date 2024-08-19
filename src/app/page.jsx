@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 
 export default function Home() {
   return (
+    
     <>
       <Navbar/>
       <main className="w-fit translate-x-[300px] translate-y-[235px] text-6xl uppercase font-extrabold">
@@ -11,10 +12,12 @@ export default function Home() {
         <h1>Phomthong</h1>
       </main>
 
+
       <div className="relative flex w-fit items-center text-center translate-x-[300px] translate-y-[400px] space-x-6">
-        <div className="w-[80px] h-[6px] border-t-2 border-black my-4"></div>
-        <span className="uppercase font-bold text-3xl">FULL-Stack Developer</span>
+        <div className="w-[80px] h-[6px] border-t-2 border-black my-4 animate-fade-right animate-once animate-ease-in-out"></div>
+        <span className="uppercase font-bold text-3xl animate-fade-up animate-once animate-ease-in-out">FULL-Stack Developer</span>
       </div>
+
 
       <div className='relative w-fit translate-x-[1050px] translate-y-[0px]'>
         <div className="absolute w-[525px] h-[525px] translate-x-[30px] translate-y-[30px] border-[3px] border-black bg-transparent -z-10 p-4"></div>
@@ -29,8 +32,9 @@ export default function Home() {
         />
       </div>
 
+
       <div className='relative w-fit translate-x-[1625px] translate-y-[-140px]'>
-        <ul>
+        <ul className='animate-fade-left animate-once animate-ease-in-out'>
           <li>
             <Link href={'https://www.instagram.com/txntai._exec/'}>
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="55" height="55" viewBox="0 0 24 24">
@@ -74,7 +78,7 @@ export default function Home() {
           height={100}
           blurDataURL="data:..."
           placeholder="blur"
-          className='z-1'
+          className='z-1 animate-fade-up animate-once animate-ease-in-out'
           />
       </div>
         
