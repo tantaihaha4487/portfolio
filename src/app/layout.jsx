@@ -1,4 +1,5 @@
 import { Inter } from "next/font/google";
+import Script from 'next/script';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -39,19 +40,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <script type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Thanachot Phomthong",
-            "jobTitle": "Full-Stack Developer",
-            "description": "ธนโชติ พรมทอง, Thanachot Phomthong, Full-Stack Developer"
-          }
-        `}
-    </script>
+      <body className={inter.className}>{children}
 
+        <Script type="application/ld+json" id="schema-jsonld">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Thanachot Phomthong",
+              "jobTitle": "Full-Stack Developer",
+              "description": "ธนโชติ พรมทอง, Thanachot Phomthong, Full-Stack Developer"
+            }
+          `}
+        </Script>
+
+      </body>
     </html>
   );
 }
