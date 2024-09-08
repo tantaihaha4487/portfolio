@@ -8,9 +8,13 @@ export default function Home() {
     <>
       <Navbar/>
       <main className="w-fit translate-x-[300px] translate-y-[235px] text-6xl uppercase font-extrabold">
-        <h1>Thanachot</h1>
-        <h1>Phomthong</h1>
+        <h1>Thanachot Phomthong</h1>
       </main>
+
+      <div className="relative flex w-fit items-center text-center translate-x-[300px] translate-y-[400px] space-x-6">
+        <h2>ธนโชติ พรมทอง</h2>
+      </div>
+
 
 
       <div className="relative flex w-fit items-center text-center translate-x-[300px] translate-y-[400px] space-x-6">
@@ -22,14 +26,15 @@ export default function Home() {
       <div className='relative w-fit translate-x-[1050px] translate-y-[0px]'>
         <div className="absolute w-[525px] h-[525px] translate-x-[30px] translate-y-[30px] border-[3px] border-black bg-transparent -z-10 p-4"></div>
         <Image
-        src={'/images/me.jpg'}
-        alt="Picture of the author"
-        width={525}
-        height={525}
-        blurDataURL="data:..."
-        placeholder="blur"
-        className='z-1'
+          src={'/images/me.jpg'}
+          alt="Thanachot Phomthong - Full-Stack Developer"
+          width={525}
+          height={525}
+          blurDataURL="data:..."
+          placeholder="blur"
+          className='z-1'
         />
+
       </div>
 
 
