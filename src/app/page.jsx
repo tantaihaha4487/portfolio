@@ -7,7 +7,7 @@ export default function Home() {
     
     <>
       <Navbar/>
-      <main className="w-fit translate-x-[300px] translate-y-[235px] text-6xl uppercase font-extrabold">
+      <main className="w-fit translate-x-[300px] translate-y-[235px] text-6xl uppercase font-extrabold"> 
         <h1>Thanachot</h1>
         <h2>Phomthong</h2>
       </main>
@@ -23,7 +23,7 @@ export default function Home() {
         <div className="absolute w-[525px] h-[525px] translate-x-[30px] translate-y-[30px] border-[3px] border-black bg-transparent -z-10 p-4"></div>
         <Image
           src={'/images/me.jpg'}
-          alt="Thanachot Phomthong - Full-Stack Developer"
+          alt="Thanachot Phomthong Profile"
           width={525}
           height={525}
           blurDataURL="data:..."

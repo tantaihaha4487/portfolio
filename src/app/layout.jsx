@@ -5,15 +5,15 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Thanachot Phomthong - Full-Stack Developer',
+  title: 'Thanachot Phomthong | Personal Site',
   description: 'Personal website of Thanachot Phomthong, a Full-Stack Developer specializing in web development.',
-  keywords: ['ธนโชติ', 'Thanachot', 'ธนโชติ พรมทอง', 'Full-Stack Developer'],
+  keywords: ['ธนโชติ', 'Thanachot', 'ธนโชติ พรมทอง', 'tantaihaha', 'Full-Stack Developer'],
   generator: 'Next.js',
-  applicationName: 'Thanachot Phomthong Portfolio',
+  applicationName: 'Thanachot Phomthong Personal Site',
   referrer: 'origin-when-cross-origin',
-  authors: [{ name: 'Thanachot Phomthong' }],
-  creator: 'Thanachot Phomthong',
-  publisher: 'Thanachot Phomthong',
+  authors: [{ name: 'Thanachot Phomthong' }, { name: 'TantaiHaha' }],
+  creator: ['Thanachot Phomthong', 'TantaiHaha'],
+  publisher: ['Thanachot Phomthong', 'TantaiHaha'],
   openGraph: {
     title: 'Thanachot Phomthong - Full-Stack Developer',
     description: 'Portfolio of Thanachot Phomthong, showcasing expertise in Full-Stack Development.',
@@ -32,8 +32,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Thanachot Phomthong - Full-Stack Developer',
-    description: 'Portfolio of Thanachot Phomthong, showcasing expertise in Full-Stack Development.',
+    title: 'Thanachot Phomthong | Personal Site',
+    description: 'Personal website of Thanachot Phomthong.',
     images: ['/images/me.jpg'],
   },
 };
