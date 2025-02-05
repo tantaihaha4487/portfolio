@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: 'Thanachot Phomthong | Personal Site',
-  description: 'Personal website of Thanachot Phomthong, a Full-Stack Developer specializing in web development.',
+  description: 'Personal website of Thanachot Phomthong.',
   keywords: ['ธนโชติ', 'Thanachot', 'ธนโชติ พรมทอง', 'tantaihaha', 'Full-Stack Developer'],
   generator: 'Next.js',
   applicationName: 'Thanachot Phomthong Personal Site',
